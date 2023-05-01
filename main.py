@@ -24,7 +24,7 @@ ws = wb.active
 ws.append(("datetime", "total_output", "minute", "average ppm", "ct", "ppm"))
 
 fn_yaml = r"/Users/davidrobinson/PycharmProjects/HighSpeedCounter/datasets/area.yml"
-fn_out = r"../datasets/output.avi"
+fn_out = r"/Users/davidrobinson/PycharmProjects/HighSpeedCounter/datasets/area.yml"
 config = {'save_video': False,
           'text_overlay': True,
           'object_overlay': True,
